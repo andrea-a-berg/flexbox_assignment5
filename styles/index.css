@@ -1,0 +1,122 @@
+.container {
+    width: 1152px;
+    height: 768px;
+    background-color: #370617;
+    padding: 20px;
+    position: relative;
+    border: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.block1 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+}
+
+.block2 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.block3 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.block4 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.block5 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.block6 {
+    width: 468px;
+    height: 160px;
+    background-color:#F48C06; 
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.square,.square1,.square2,.square3 {
+    min-width: 78px;
+    min-height: 78px;
+    background-color:#9D0208; 
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+}
+.square1 {
+    align-self: flex-end;
+}
+
+.square2 {
+   align-self: center; 
+}
+
+.square3 {
+    flex-grow: 2;
+}
+
+.text {
+    align-items: center;
+}
